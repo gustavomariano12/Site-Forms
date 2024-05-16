@@ -7,24 +7,12 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-        <style>
-            a {
-                color: white;
-                text-decoration: none;
-            }
-            a:hover {
-                color: gray;
-                text-decoration: none;
-                animation: ease-in 2s;
-            }
-        </style>
+                @vite('resources/css/app.css')
     </head>
-    <body class="" style = "background-color: black;">
+    <body class="" >
 
     @include("components.header")
-
+   
     @include("components.footer")
 
     </body>
